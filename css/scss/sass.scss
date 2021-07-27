@@ -1,0 +1,86 @@
+@import "base/fuente";
+
+
+html{
+    font-size: 16px;
+}
+.titulo{
+    font-family: $fuentetitulo;
+    transition: all 0.2s;
+
+   
+}
+.titulo:hover{
+    transform: scale(1.05);
+}
+
+body{
+    background-color: rgb(145, 143, 141);
+}
+.titulo:hover{
+    color: rgb(113, 238, 55)
+}
+
+.tituloMenu:hover{
+    color: red;
+}
+
+
+#separator-fit{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separator-fit .content{
+    width: 150%;
+    height: 150px;
+    background-color: rgba(14, 15, 15, 0.685);
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#separator-fitb{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separator-fitb .contentb{
+    width: 150%;
+    height: 150px;
+    background-color: rgba(14, 15, 15, 0.685);
+    margin-left: -25%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+
+.card-border{
+    border: solid 2px black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+
+#vendedor{
+    justify-content: center;
+}
+
+
+
+
+.formulario{
+    align-content: center;
+}
+
+
+@import "layout/footer";
